@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="player_player_view">
+        <attr name="player_isShowDebugView" format="boolean" />
+        <attr name="player_isAutoPlay" format="boolean" />
+        <attr name="player_videoTitle" format="string" />
+        <attr name="player_isCloseVolume" format="boolean" />
+    </declare-styleable>
+
+    <style name="player_progress_bar" parent="android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminate">true</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+    </style>
+
+    <style name="Player_ExoMediaButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.DownLoad">
+        <item name="android:src">@drawable/ic_download</item>
+        <item name="android:contentDescription">@string/player_exo_controls_download_description</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+
+    <style name="Player_ExoMediaButton.Previous">
+        <item name="android:src">@drawable/exo_controls_previous</item>
+        <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.Next">
+        <item name="android:src">@drawable/exo_controls_next</item>
+        <item name="android:contentDescription">@string/exo_controls_next_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.FastForward">
+        <item name="android:src">@drawable/exo_controls_fastforward</item>
+        <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.Rewind">
+        <item name="android:src">@drawable/exo_controls_rewind</item>
+        <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.Play">
+        <item name="android:src">@drawable/exo_controls_play</item>
+        <item name="android:contentDescription">@string/exo_controls_play_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.Pause">
+        <item name="android:src">@drawable/exo_controls_pause</item>
+        <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+    </style>
+
+    <style name="Player_ExoMediaButton.Shuffle">
+        <item name="android:src">@drawable/exo_controls_shuffle</item>
+        <item name="android:contentDescription">@string/exo_controls_shuffle_description</item>
+    </style>
+
+</resources>

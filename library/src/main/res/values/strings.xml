@@ -1,0 +1,53 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="player_app_name">Library</string>
+
+    <!-- 视频播放 -->
+    <string name="player_selection_default_none">Default (none)</string>
+    
+    <string name="player_error_video_data">视频参数有错</string>
+
+    <string name="player_video">Video</string>
+
+    <string name="player_audio">Audio</string>
+
+    <string name="player_text">Text</string>
+
+    <string name="player_retry">Retry</string>
+
+    <string name="player_selection_disabled">Disabled</string>
+
+    <string name="player_selection_default">Default</string>
+
+    <string name="player_unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="player_enable_random_adaptation">Enable random adaptation</string>
+
+    <string name="player_error_drm_not_supported">Protected content not supported on API levels below 18</string>
+
+    <string name="player_error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="player_error_drm_unknown">An unknown DRM error occurred</string>
+
+    <string name="player_error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="player_error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="player_error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="player_error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="player_error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="player_error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="player_storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="player_sample_list_load_error">One or more sample lists failed to load</string>
+
+    <string name="player_ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
+
+    <string name="player_without_wifi_play">非WiFi状态播放，请注意流量消耗</string>
+    <string name="player_exo_controls_download_description">download video file</string>
+
+</resources>

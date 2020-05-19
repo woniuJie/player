@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="player_color_ec_buffered">#474646</color>
+    <color name="player_color_ec_played">#F8D11A</color>
+    <color name="player_color_ec_unplayed">#FFFFFF</color>
+    <color name="player_color_black">#000000</color>
+</resources>

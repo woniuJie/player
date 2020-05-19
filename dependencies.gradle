@@ -1,0 +1,34 @@
+def supportVersion = "26.1.0"
+def constraintLayoutVersion = "1.0.2"
+def junitVersion = "4.12"
+def runnerVersion = "1.0.1"
+def expressoCoreVersion = "3.0.1"
+def eventbusVersion = "3.0.0"
+
+project.ext {
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.2",
+            minSdkVersion    : 16,
+            targetSdkVersion : 22,
+            applicationId    : "",
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+//    为了规范，约束此文件风格
+//    dependencies数组中命名风格
+//    gradle第三方依赖组成规则，groupId:artifactId:version
+//    key为artifactId，value正常填写，version抽取变量
+    dependencies = [
+            //android-support
+            "support-v4"       : "com.android.support:support-v4:${supportVersion}",
+            "appcompat-v7"     : "com.android.support:appcompat-v7:${supportVersion}",
+            "constraint-layout": "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}",
+            "junit"            : "junit:junit:${junitVersion}",
+            "runner"           : "com.android.support.test:runner:${runnerVersion}",
+            "espresso-core"    : "com.android.support.test.espresso:espresso-core:${expressoCoreVersion}",
+            "eventbus"         : "org.greenrobot:eventbus:${eventbusVersion}"
+    ]
+
+}
